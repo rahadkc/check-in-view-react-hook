@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-export const IsInView = (elRef, offset = 0) => {
+export const useInView = (elRef, offset = 0) => {
   const [inView, setInView] = useState(true)
   const [lastYPos, setLastYPos] = useState(0)
   const [scrollUp, setScrollUp] = useState(false)
@@ -30,4 +30,4 @@ export const IsInView = (elRef, offset = 0) => {
   return {inView, scrollUp, lastYPos}
 }
 
-export default IsInView
+export default useInView
