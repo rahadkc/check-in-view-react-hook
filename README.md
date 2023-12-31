@@ -9,7 +9,6 @@ The `useInView` hook is a React hook designed to determine whether a specified H
 No specific installation steps are required for this hook. Simply import it into your React components as needed.
 
 ```jsx
-import { useEffect } from 'react';
 import { useInView } from '@/hooks/useInView';
 ```
 
