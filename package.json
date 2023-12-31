@@ -1,0 +1,18 @@
+{
+  "name": "useinview-react-hook",
+  "author": "Rahad Rahman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "useInView.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.46"
+  }
+}
